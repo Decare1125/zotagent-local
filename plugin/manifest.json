@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "ZotAgent Local",
+  "version": "1.0.0",
+  "description": "在 Zotero 中直接调用本机 Codex、Claude Code 和 OpenCode 的阅读工作台",
+  "author": "ZotAgent Local contributors",
+  "applications": {
+    "zotero": {
+      "id": "zotagent-local@research.local",
+      "update_url": "https://127.0.0.1:24160/zotagent-local/updates.json",
+      "strict_min_version": "7.0",
+      "strict_max_version": "10.*"
+    }
+  },
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
+  }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:html="http://www.w3.org/1999/xhtml" style="padding:20px;">
+<html:h2>ZotAgent Local</html:h2><html:p>在 Zotero 中使用本机 Agent，与 PDF 选区、截图和文献笔记保持同一个工作流。</html:p>
+<html:p>Runtime 只监听 127.0.0.1，连接令牌保存在当前 Zotero 配置目录。Agent 沿用你原有的本地账户和设置。</html:p>
+<button label="打开 ZotAgent 阅读工作台" oncommand="Zotero.ZotAgentLocal.open();"/>
+<button label="检查并连接 Runtime" oncommand="Zotero.ZotAgentLocal.connect().then(() => Services.prompt.alert(window, 'ZotAgent Local', 'Runtime 连接成功。')).catch(e => Services.prompt.alert(window, 'ZotAgent Local', e.message));"/>
+<button label="重启 Runtime" oncommand="Zotero.ZotAgentLocal.restartRuntime().then(() => Services.prompt.alert(window, 'ZotAgent Local', 'Runtime 已重启。')).catch(e => Services.prompt.alert(window, 'ZotAgent Local', e.message));"/>
+<button label="停止 Runtime" oncommand="Zotero.ZotAgentLocal.stopRuntime().catch(e => Services.prompt.alert(window, 'ZotAgent Local', e.message));"/>
+<html:p>在阅读工作台右上角的设置中，可以修改各 Agent 的程序路径、Windows/WSL 环境和模型。</html:p>
+</vbox>
