@@ -1,0 +1,10 @@
+release-assets/
+dist/
+node_modules/
+data/
+*.log
+__pycache__/
+*.pyc
+.env
+.env.*
+provider-credentials.json

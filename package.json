@@ -1,0 +1,12 @@
+{
+  "name": "zotagent-local",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Zotero reading workspace with local agent runtimes, independently reconstructed from the supplied video",
+  "scripts": {
+    "start": "node runtime/server.mjs",
+    "test": "node --test test/*.test.mjs",
+    "build": "python scripts/build.py"
+  }
+}
