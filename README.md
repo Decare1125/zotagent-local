@@ -4,7 +4,7 @@
 
 面向 **Windows x64** 的 Zotero 文献工作台。连接你自己的 Codex 账号，把 PDF 选区、全文、截图与多篇文献带入对话，再将回答写回 PDF 便签或文献笔记。
 
-[下载插件](https://github.com/Decare1125/DE-1125/releases) · [使用指南](docs/USER-GUIDE.md) · [常见问题](docs/TROUBLESHOOTING.md) · [隐私说明](docs/PRIVACY.md)
+[下载插件](https://github.com/Decare1125/zotagent-local/releases) · [使用指南](docs/USER-GUIDE.md) · [常见问题](docs/TROUBLESHOOTING.md) · [隐私说明](docs/PRIVACY.md)
 
 ![阅读工作台](media/screenshots/01-zotero-workspace.png)
 
@@ -27,7 +27,7 @@
 
 ## 🚀 安装
 
-1. 从 [Releases](https://github.com/Decare1125/DE-1125/releases) 下载 `zotagent-local-1.0.0.xpi`。源码 ZIP 不能作为插件安装。
+1. 从 [Releases](https://github.com/Decare1125/zotagent-local/releases) 下载 `zotagent-local-1.0.0.xpi`。源码 ZIP 不能作为插件安装。
 2. Zotero **工具 → 插件 → 齿轮 → 从文件安装插件**，选择 XPI，重启 Zotero。
 3. **工具 → ZotAgent Local · 文献阅读助手** 打开工作台。
 4. 设置中点击 **登录或检查 Codex**，使用自己的账号完成浏览器登录；本机已有有效登录时可沿用。
@@ -96,7 +96,7 @@ python test/test_engine_diagnostics.py
 
 ## 🤝 参与与致谢
 
-欢迎在 [Issues](https://github.com/Decare1125/DE-1125/issues) 提供版本、复现步骤和脱敏错误信息；不要上传私人论文、账号配置或 API 密钥。欢迎 ⭐ 与贡献。
+欢迎在 [Issues](https://github.com/Decare1125/zotagent-local/issues) 提供版本、复现步骤和脱敏错误信息；不要上传私人论文、账号配置或 API 密钥。欢迎 ⭐ 与贡献。
 
 感谢 [TomBener/zotagent](https://github.com/TomBener/zotagent) 的工作流启发，以及 [zotero-pdf2zh](https://github.com/guaguastandup/zotero-pdf2zh)、PDFMathTranslate、BabelDOC 等上游项目。本项目并非 OpenAI 或上述项目的官方产品。
 
